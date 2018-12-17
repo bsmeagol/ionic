@@ -1,0 +1,9 @@
+{
+  "name": "ionicapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "eaf40448",
+  "id": "eaf40448"
+}

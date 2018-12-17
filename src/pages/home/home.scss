@@ -1,0 +1,81 @@
+page-home {
+
+}
+$colors: ( primary: #be40ef, secondary: #407ba0, danger: #ff4d4d, light: rgba(191, 191, 191, 0.5), dark: #2a232b );
+
+.btn {
+  background-color: map-get($colors, primary) !important;
+  opacity: 0.9;
+  color: white !important;
+  font-family: 'Showcard Gothic';
+}
+
+.toolbar-md {
+  min-height: 0px !important;
+  padding: 0px !important;
+}
+
+  .delbtn {
+    background-color: map-get($colors, danger);
+    opacity: 0.9;
+    text-align: center;
+    border-radius: 25px;
+  }
+
+  .item-ios.item-block .item-inner {
+    border-bottom: none !important;
+  }
+
+  .txt {
+    background-color: map-get($colors, light);
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+  }
+
+
+
+.toolbar-title-md {
+
+  color: white;
+}
+
+  ion-title {
+    background-color: #333;
+    padding: 15px;
+  }
+
+  ion-content {
+    background-color: map-get($colors, secondary);
+    padding: 0px !important;
+  }
+
+  ion-app.ios [padding] .scroll-content {
+    padding: 0px !important;
+  }
+
+  .toolbar-title-ios {
+    color: white !important;
+    font-family: Impact;
+    font-size: 20px;
+  }
+
+  .label-ios {
+    margin: 0px !important;
+  }
+
+
+.grid {
+  padding: 0px !important;
+  margin-top: 0px;
+}
+
+.item-md.item-block .item-inner {
+  padding-right: 0px;
+  border-bottom: 0px;
+}
+
+ion-app.md [padding] .scroll-content {
+  padding: 0px !important;
+}

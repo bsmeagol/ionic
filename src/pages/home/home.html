@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Parties
+    </ion-title>
+    
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="background">
+  
+
+   
+    <!--<pre>Data Obtained is: {{stats && stats[0].party}}</pre>-->
+
+
+  <ion-grid>
+
+
+    <div ion-item *ngFor="let stat of stats" class="txt">
+      <ion-row>
+        <ion-col  col-10> <div (click)="log($event)">{{ stat.party }}</div></ion-col>
+        <ion-col class="delbtn"><div (click)="del($event)" id="{{stat.id}}">X</div></ion-col>
+      </ion-row>
+    </div>
+    <br />
+    <ion-row>
+      <ion-col class="btn" ion-item (click)="add()" style="text-align:center">
+        Create new party
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+
+ 
+</ion-content>

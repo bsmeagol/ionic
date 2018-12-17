@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\assets",
+    "\\assets\\icon",
+    "\\assets\\imgs",
+    "\\pages",
+    "\\pages\\create",
+    "\\pages\\home",
+    "\\pages\\statview",
+    "\\theme"
+  ],
+  "SelectedNode": "\\pages\\statview\\statview.module.ts",
+  "PreviewInSolutionExplorer": false
+}
